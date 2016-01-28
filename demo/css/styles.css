@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background: #fff;
+    color: #333;
+    font: 20px/1.5 'Roboto', Arial, sans-serif;
+}
+
+a {
+    color: #1db4f7;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a.text-muted {
+    color: #b1e5fc;
+}
+
+h1, h2, h3 {
+    color: #000;
+    font-weight: 300;
+    line-height: 1.1;
+}
+h1 {
+    font-size: 55px;
+}
+
+h2 {
+    font-size: 35px;
+    margin: 35px 0 20px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+small {
+    font-size: 80%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-muted {
+    color: #aaa;
+}
+
+.btn {
+    background: #1db4f7;
+    border: 0;
+    border-radius: 3px;
+    box-shadow: 0 3px 5px rgba(0,0,0,.2);
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    max-width: 310px;
+    outline: 0;
+    padding: 28px 50px;
+    text-align: center;
+    -moz-transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+    width: 100%;
+}
+
+.btn:active {
+    box-shadow: 0 2px 5px rgba(0,0,0,.2), inset 0 3px 5px rgba(0,0,0,0.1);
+    -moz-transform: translate(0, 2px);
+    -webkit-transform: translate(0, 2px);
+    transform: translate(0, 2px);
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 0 15px;
+}
+
+.page-section {
+    padding: 30px 0;
+    text-align: center;
+}
+
+.page-header {
+    margin: 30px 0;
+}
+
+.page-header h1 {
+    margin: 0;
+}
+
+.page-header-descr {
+    margin-top: 30px;
+}
+
+.page-footer {
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+
+@media all and (min-width: 480px) {
+    h1 {
+        font-size: 80px;
+    }
+    h2 {
+        font-size: 50px;
+    }
+    h3 {
+        font-size: 30px;
+    }
+
+    .page-header {
+        margin: 50px 0;
+    }
+
+    .page-section {
+        padding: 50px 0;
+    }
+
+    .page-footer {
+        margin-top: 50px;
+    }
+}
