@@ -1,0 +1,32 @@
+{
+  "name": "MeeInk",
+  "version": "1.0.0",
+  "homepage": "https://github.com/inferusvv/MeeInk",
+  "authors": [
+    "Vladislav Bezenson <mail@meethemes.com>"
+  ],
+  "description": "MeeInk is a jQuery plugin which allows you to easily add material design ink effect to elements when you click them.",
+  "main": "plugin/js/jquery.mee-ink.js",
+  "moduleType": [],
+  "keywords": [
+    "jquery",
+    "plugin",
+    "material",
+    "design",
+    "google",
+    "css",
+    "animation",
+    "ui"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.0"
+  }
+}
