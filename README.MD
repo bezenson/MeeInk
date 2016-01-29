@@ -12,6 +12,12 @@ Check out demo page [here][demo].
 
 ## Setup
 
+### Install with bower
+
+```sh
+bower install MeeInk --save
+```
+
 ### Include scripts
 
 ```html
