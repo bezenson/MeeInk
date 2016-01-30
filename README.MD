@@ -2,7 +2,7 @@
 
 MeeInk is a jQuery plugin which allows you to easily add **material design** ink effect to elements when you click them.
 
-Plugin is based on CSS animation what give you good perfomance inlcuding mobile devices.
+Plugin is based on CSS animation what give you good performance including mobile devices.
 
 ## Demo
 
