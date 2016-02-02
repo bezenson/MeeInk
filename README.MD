@@ -84,3 +84,9 @@ positionRelativeClass: 'mee-ink-pos-relative'
 ```
 
 Class will be added if your element have ```position: static```, because ink inside element positioned absolutely relative to element.
+
+## Issues
+
+Found an issue? You are welcome [here][issues].
+
+[issues]: https://github.com/inferusvv/MeeInk/issues
