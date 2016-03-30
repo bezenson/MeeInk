@@ -12,10 +12,16 @@ Check out demo page [here][demo].
 
 ## Setup
 
-### Install with bower
+### Install with Bower
 
 ```sh
 bower install MeeInk --save
+```
+
+### Install with NPM
+
+```sh
+npm install meeink --save
 ```
 
 ### Include scripts
